@@ -12,18 +12,18 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :content %><br />
+    <%= f.label :content, '¿Qué idea tienes?' %><br />
     <%= f.text_area :content %>
   </div>
   <div class="field">
-    <%= f.label :name %><br />
+    <%= f.label :name, 'Tu nombre:' %><br />
     <%= f.text_field :name %>
   </div>
   <div class="field">
-    <%= f.label :email %><br />
+    <%= f.label :email, 'Correo (no te preocupes, no lo compartiré):'%><br />
     <%= f.text_field :email %>
   </div>
   <div class="actions">
-    <%= f.submit %>
+    <%= f.submit 'Compartir mi idea.'%>
   </div>
 <% end %>

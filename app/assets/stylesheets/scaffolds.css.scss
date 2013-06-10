@@ -141,7 +141,7 @@ footer ul li {
 a.button{
    display: inline-block;
   *display: inline;
-  padding: 8px 24px;
+  padding: 16px 32px;
   margin-bottom: 0;
   *margin-left: .3em;
   font-size: h2;
@@ -162,4 +162,14 @@ a.button{
     text-decoration: none;
   }
   
+}
+
+.box {
+  width: 320px;
+  border: 1px solid lightgray;
+  padding: 24px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  margin: 64px;
 }
